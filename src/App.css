@@ -3,6 +3,7 @@
     --bg-color: #151515;
     --fg-color: #303030;
 }
+
 body, html {
     background-color: var(--bg-color);
     margin: 0;
@@ -17,6 +18,7 @@ body, html {
     color: white;
     font-size: 25px;
     margin: 0;
+    font-weight: 700;
 }
 
 .Header {
@@ -39,11 +41,17 @@ body, html {
     margin: 20px;
 }
 
+.two-side-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+}
+
 .layout {
     padding-top: 100px;
     margin: auto auto auto auto;
     width: 900px;
-    max-width: 100%;
+    max-width: 90%;
     /* background-color: rgb(0, 31, 0); */
 }
 
@@ -69,7 +77,7 @@ body, html {
 }
 
 .purdue.pic {
-    width: 300px;
+    width: 400px;
     max-width: 80%;
 }
 
@@ -84,12 +92,10 @@ body, html {
     margin: 10px 0 0 0;
     font-weight: 700;
 }
-
-
-.text-wrapper {
-    margin-left: 20px;
-    margin-right: 20px;
+.small.title {
+    font-size: 19px;
 }
+
 
 p {
     color: #c0c0c0;
@@ -99,6 +105,9 @@ p {
 
 .center-text {
     text-align: center;
+}
+.right-text {
+    text-align: right;
 }
 hr {
     max-width: 90vw;
@@ -116,5 +125,8 @@ hr {
         width: 70vw;
         height: 70vw;
         margin-bottom: 30px;
+    }
+    .two-side-grid {
+        display: inline;
     }
 }
