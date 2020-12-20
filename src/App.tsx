@@ -87,6 +87,17 @@ export const App = () => (
             <hr/>
             <Projects/>
         </div>
+
+        <div className="cover">
+            <p className="center-text medium title" style={{fontWeight: "bold"}}>
+                Contact
+            </p>
+            <div style={{margin: "auto", width: "300px"}}>
+                <p>
+                    Email: <span style={{float: "right"}}>kimchy101@gmail.com</span>
+                </p>
+            </div>
+        </div>
     </div>
     
 );
