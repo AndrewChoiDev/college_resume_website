@@ -1,9 +1,9 @@
 import React from "react";
 
-const quizPic = require('./images/quiz_app.PNG');
-const robotPic = require('./images/robot_tale.jpg');
-const softwareRenderPic = require('./images/software_render.PNG');
-const voxelRenderPic = require('./images/voxel_render.PNG');
+const quizPic = require('../images/quiz_app.PNG');
+const robotPic = require('../images/robot_tale.jpg');
+const softwareRenderPic = require('../images/software_render.PNG');
+const voxelRenderPic = require('../images/voxel_render.PNG');
 
 const squarePicData : {imgSrc: string, link: string}[] = [
     {
