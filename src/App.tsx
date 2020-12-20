@@ -4,8 +4,8 @@ import { Skills } from './Skills';
 import { Projects } from './Projects';
 
 
-const profilePic = require('../images/main_icon.jpg');
-const purduePic = require('../images/purdue_university.jpg');
+const profilePic = require('./images/main_icon.jpg');
+const purduePic = require('./images/purdue_university.jpg');
 
 const Header = () => (
     <div className="Header">
